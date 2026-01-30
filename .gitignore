@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+
+# Visual testing snapshots
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# reports/
+id_rsa_*
+*.tmp
+*.temp
+playwright-report/
+test-results/

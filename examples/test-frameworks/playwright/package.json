@@ -1,0 +1,18 @@
+{
+  "name": "playwright-course-examples",
+  "version": "1.0.0",
+  "description": "Навчальний Playwright-проєкт для курсу Автомейшен тестери — робочі приклади по трьох модулях",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:module1": "playwright test tests/01-playwright-overview/",
+    "test:module2": "playwright test tests/02-config-file/",
+    "test:module3": "playwright test tests/03-browser-context-page-ui/",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
